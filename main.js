@@ -1,4 +1,4 @@
-const accessToken = "PASTE_YOUR_ACCESS_TOKEN_HERE";
+const accessToken = "BQCev47063x-fyJFR6lw5hAz7QyTUjkYPrAtw7OZpfxT46esHXTdPzWvYW8VueqVEMIG5Ygu-OZWOcYXSyV8f2_k2tIU2Hlpa7vnES62spDTdRd_t8JIS6jx3BlpZG-SaZYdvherhXnA";
 
 const searchBox = document.querySelector(".search input");
 const searchBtn = document.querySelector(".search button");
@@ -9,7 +9,7 @@ async function searchArtist(artist) {
         `https://api.spotify.com/v1/search?q=${artist}&type=artist&limit=1`,
         {
             headers: {
-                Authorization: `Bearer ${accessToken}`
+                Authorization: `Bearer ${BQCev47063x-fyJFR6lw5hAz7QyTUjkYPrAtw7OZpfxT46esHXTdPzWvYW8VueqVEMIG5Ygu-OZWOcYXSyV8f2_k2tIU2Hlpa7vnES62spDTdRd_t8JIS6jx3BlpZG-SaZYdvherhXnA}`
             }
         }
     );
