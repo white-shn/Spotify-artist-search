@@ -20,7 +20,7 @@ async function searchArtist(artist) {
     console.log(data);
 
     const artistData = data.artists.items[0];
-    console.log("artistData:", artistData);
+    console.log(JSON.stringify(artistData, null, 2));
     console.log("followers:", artistData.followers);
 
     document.querySelector(".artist-name").innerHTML =
