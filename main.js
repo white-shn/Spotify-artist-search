@@ -14,7 +14,10 @@ async function searchArtist(artist) {
         }
     );
 
+    console.log(response.status);
+
     const data = await response.json();
+    console.log(data);
 
     const artistData = data.artists.items[0];
 
