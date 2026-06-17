@@ -25,11 +25,11 @@ async function searchArtist(artist) {
 
     document.querySelector(".artist-name").innerHTML =
         artistData.name;
-
+ /*
     document.querySelector(".followers").innerHTML =
         "Followers: " +
         artistData.followers.total.toLocaleString();
-
+*/
     document.querySelector(".genres").innerHTML =
         "Genres: " +
         artistData.genres.join(", ");
