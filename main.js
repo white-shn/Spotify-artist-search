@@ -1,4 +1,4 @@
-const accessToken = "BQCev47063x-fyJFR6lw5hAz7QyTUjkYPrAtw7OZpfxT46esHXTdPzWvYW8VueqVEMIG5Ygu-OZWOcYXSyV8f2_k2tIU2Hlpa7vnES62spDTdRd_t8JIS6jx3BlpZG-SaZYdvherhXnA";
+const accessToken = "BQDvBzWL11fg9V9dYJie5WwE9ituiDDuZKeSqojLMM6KCUWlkNdDIPHbChprOLy-Np4RTh4sXAoXAkYHkhBGUVPUdRY3KoEHgjAwZZ3-z5Yg0JHTiuo-oFcH6fwfRezjPe3fs-kiiR0n";
 
 const searchBox = document.querySelector(".search input");
 const searchBtn = document.querySelector(".search button");
