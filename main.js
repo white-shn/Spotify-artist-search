@@ -20,19 +20,18 @@ async function searchArtist(artist) {
     console.log(data);
 
     const artistData = data.artists.items[0];
-    console.log(JSON.stringify(artistData, null, 2));
+    console.log(artistData);
     console.log("followers:", artistData.followers);
 
     document.querySelector(".artist-name").innerHTML =
         artistData.name;
- /*
+
     document.querySelector(".followers").innerHTML =
-        "Followers: " +
-        artistData.followers.total.toLocaleString();
-*/
+    "Popularity: " +
+    artistData.popularity;
+    
     document.querySelector(".genres").innerHTML =
-        "Genres: " +
-        artistData.genres.join(", ");
+    "Spotify Artist";
 
     document.querySelector(".artist-image").src =
         artistData.images[0].url;
