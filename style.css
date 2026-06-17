@@ -14,11 +14,7 @@ body{
     width:90%;
     max-width:470px;
 
-    background:linear-gradient(
-        135deg,
-        #1DB954,
-        #191414
-    );
+    background: green;
 
     margin:100px auto 0;
 
@@ -66,7 +62,7 @@ body{
     border:0;
     outline:0;
 
-    background:#ebfffc;
+    background: white;
 
     width:60px;
     height:60px;
